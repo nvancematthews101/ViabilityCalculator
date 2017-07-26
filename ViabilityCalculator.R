@@ -259,7 +259,7 @@ charVector <- paste(" Score: ", score, "\n",
     "4.", weakness[4], "\n",
     "5.", weakness[5])
 
-charVector <- strsplit(step1, "\n")[[1]]
+charVector <- strsplit(charVector, "\n")[[1]]
 
 
 
